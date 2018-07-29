@@ -1,0 +1,430 @@
+/*ABOUT STYLING*/
+
+* {
+  text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
+  max-width: 960px;
+}
+
+body {
+  background-image: url(images/mekong-green.png);
+}
+
+.jumbotron {
+  width: 100%;
+
+}
+
+h1,
+h2 {
+  font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+  margin-left: 20px;
+}
+
+.header {
+  background-color: #ffffff;
+  border: 1px solid #cccccc;
+  /*width: 70%;
+  height: 63px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 30px;*/
+}
+
+.name {
+  background-color: #4aaaa5;
+  
+  padding-top: 10px;
+  
+  font-size: 20px;
+  /*margin-left: 13%;*/
+  text-align: center;
+  color: #ffffff;
+  /*position: relative;*/
+}
+
+.nav {
+  padding-top: 20px;
+}
+
+.nav3 {
+  padding-right: 20px;
+}
+
+/*
+nav ul {
+  color: #777777;
+  list-style-type: none;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+nav li {
+  color: #777777;
+  display: inline;
+  float: right;
+}
+
+nav a:link,
+nav a:visited {
+  color: #777777;
+  display: block;
+  width: 90px;
+  text-align: center;
+  padding: 10px 0;
+}
+
+nav a:hover {
+  color: blue;
+  font-size: 20px;
+}*/
+
+/*.contact {
+  margin-right: 12%;
+}*/
+
+h1 {
+  color: #4aaaa5;
+  /*margin-bottom: 0;*/
+}
+
+hr {
+  color: #4aaaa5;
+}
+
+.main-page-pic {
+  width: 300px;
+  height: 300px;
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 15px;
+}
+
+.main {
+  width: 50%;
+  padding: 20px 15px;
+  background-color: #ffffff;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 50px;
+  margin-top: 30px;
+}
+
+.paragraphs {
+  float: right;
+}
+
+.bio-text {
+  color: #777777;
+  /*display: inline;*/
+}
+
+footer {
+  margin-left: 0;
+  margin-right: 0;
+  /*width: 100%;*/
+  height: 50px;
+  border-top: 5px solid #4aaaa5;
+  margin-top: 50px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 30px;
+}
+
+.foot-text {
+  background-color: #666666;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #ffffff;
+}
+
+p.foot-text {
+  margin-top: 0;
+}
+
+.footer {
+  text-align: center;
+
+}
+
+.media {
+  text-align: center;
+}
+
+/*CONTACT STYLING*/
+
+button {
+  color: #fff;
+  font-size: 16px;
+  width: 90px;
+  height: 30px;
+  border: none;
+  background-color: #4aaaa5;
+}
+
+input {
+  margin-bottom: 15px;
+}
+
+.input-style {
+  width: 450px;
+  margin-top: 5px;
+}
+
+.box {
+  height: 25px;
+  margin-top: 5px;
+}
+
+/*PORTFOLIO STYLING*/
+
+.images {
+  width: 175px;
+  height: 300px;
+  margin-right: auto;
+  margin-left: 9%;
+  margin-bottom: 30px;
+  display: inline;
+}
+
+/*.images:hover {
+  width: 200px;
+  height: 200px;
+}
+*/
+.photo1 {
+  background-image: url(images/KidsSki.PNG);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.photo2 {
+  background-image: url(images/G&MePic.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.photo3 {
+  background-image: url(images/IMG_8243.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.photo4 {
+  background-image: url(images/IMG_8324.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.photo5 {
+  background-image: url(images/IMG_8328.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.photo6 {
+  background-image: url(images/IMG_8329.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.banners {
+  width: 100%;
+  margin-top: 80%;
+  background-color: #ccc;
+  /*padding-top: 10px;
+  padding-bottom: 10px;*/
+  color: blue;
+  opacity: 0.65;
+  text-align: center;
+}
+
+/*@media only screen and (max-width: 980px) {
+
+  header {
+    margin-top: 0;
+    width: 100%;
+    margin: 0;
+    
+  
+  }
+
+  a:third-child {
+    margin-right: 0;
+  }
+
+  .name {
+    margin-left: 5%;
+  }
+
+  .main {
+    margin-left: 5%;
+    margin-bottom: 400px;
+  }
+
+  footer {
+    width: 100%;
+    margin-bottom: 0;
+  }*/
+
+
+  
+  @media only screen and (max-width: 768px) {
+  a {
+    text-align: center;
+    /*width: 90%;
+    padding-left: 0;*/
+  }
+
+  .box {
+  width: 97%;
+}
+
+.text-area {
+  width: 97%;
+}
+
+
+}
+
+  /*div.main {
+    margin-left: 3%;
+  }
+
+  .name {
+    margin-left: 3%;
+  }
+
+h1 {
+  width: 180px;
+}
+
+img.main-page-pic {
+  margin-left: 3%;
+}
+
+hr {
+  width: 95%;
+}
+*/
+/* CONTACT 
+
+/*button {
+  float: left;
+  margin-left: 0;
+}
+
+.form {
+  text-align: left;
+  margin-left: 20px;
+  height: 365px;
+}
+
+.box {
+  width: 97%;
+}
+
+.text-area {
+  width: 97%;
+}
+
+  }*/
+  
+  
+  /*@media only screen and (max-width: 640px) {*/
+/* ABOUT */
+    /** {
+      max-width: 90%;
+    }
+
+    .name {
+      position: relative
+      
+    }
+
+    header {
+      position: absolute;
+    }
+
+     p {
+      display: block;
+    } 
+
+    .image {
+      width: 90%;
+      display: block;
+    }
+    .paragraphs {
+      display: block;
+    }
+*/
+
+/* PORTFOLIO */
+    /*.images {
+      width: 90%;
+      height: 400px;
+      margin-left: 5%;
+      background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+    }
+
+    .images:hover {
+      width: 90%;
+      height: 400px;
+    }
+
+    div.main {
+      margin-left: 12%;
+    }
+
+    .banners {
+      margin-top: 80%;
+      width: 500px;
+      margin-right: 0;
+    }
+
+    footer {
+      width: 100%;
+      text-align: center;
+      margin-right: 0;
+      padding-right: 0;
+      margin-left: 12%;
+    }
+
+    p.foot-text {
+      padding-left: 150px;
+      padding-right: 150px;
+    }
+
+
+    /* CONTACT */
+
+    /*button {
+      float: left;
+      margin-left: 0;
+    }
+
+    .form {
+      text-align: left;
+      margin-left: 20px;
+      height: 365px;
+    }
+
+    
+  
+  }*/
+  
+*/*/
