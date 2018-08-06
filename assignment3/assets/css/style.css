@@ -1,0 +1,60 @@
+body {
+    background: 
+radial-gradient(circle at 100% 50%, transparent 10%, rgba(255,255,255,.3) 11%, rgba(255,255,255,.3) 14%, transparent 15%, transparent),
+radial-gradient(circle at 0% 50%, transparent 10%, rgba(255,255,255,.3) 11%, rgba(255,255,255,.3) 14%, transparent 15%, transparent) 0 -50px;
+background-color: slategray;
+background-size:75px 100px;
+}
+
+p {
+    text-align: center;
+    font-size: 26px;
+    color: white;
+}
+
+h1, h3 {
+    color: white;
+}
+
+h3 {
+    font-family: 'MedievalSharp', cursive;
+    font-family: 'Boogaloo', cursive;
+    font-family: 'Special Elite', cursive;  
+
+}
+
+input, h2 {
+    font-size: 30px,
+}
+
+input {
+    height: 35px;
+    width: 40px;
+    font-size: 30px;
+}
+
+.title {
+    font-family: 'MedievalSharp', cursive;
+    font-size: 60px;
+    text-align: center;
+}
+
+.zoltar {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.image {
+    width: 450px;
+    height: 400px;
+
+}
+
+.fields {
+    font-size: 30px;
+    margin-left: 30px;
+}
+
+.gif {
+    text-align: center; 
+}
