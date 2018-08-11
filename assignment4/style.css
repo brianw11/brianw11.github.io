@@ -1,0 +1,43 @@
+.crystals {
+  background-color: red;
+  color: white;
+  text-align: center;
+  padding-top: 30px;
+  font-size: 30px;
+  height: 100px;
+  margin-top: 10px;
+
+}
+
+.paragraphs {
+  margin-top: 10px;
+  background-color: beige;
+}
+
+.thirtyfour {
+  margin-top: 10px;
+  background-color: green;
+}
+
+.youlost {
+  margin-top: 10px;
+  background-color: blue;
+}
+
+.gems {
+  margin-top: 10px;
+  background-color: yellow;
+  height: 100px;
+}
+
+.totalscore {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: gray;
+  height: 40px;
+}
+
+.score {
+  background-color: gray;
+  height: 150px;
+}
