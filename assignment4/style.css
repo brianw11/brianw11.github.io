@@ -1,12 +1,16 @@
+
+.header {
+  width: 100%;
+}
+
 .crystals {
   background-color: red;
   color: white;
   text-align: center;
   padding-top: 30px;
-  font-size: 30px;
+  font-size: 36px;
   height: 100px;
   margin-top: 10px;
-
 }
 
 .paragraphs {
@@ -14,30 +18,69 @@
   background-color: beige;
 }
 
-.thirtyfour {
+.random-win-lose {
+  text-align: center;
+  margin-left: 20%;
+}
+
+.random-number {
+  font-size: 48px;
   margin-top: 10px;
+  padding-top: 36px;
+  color: white;
   background-color: green;
 }
 
 .youlost {
   margin-top: 10px;
+  font-size: 2opx;
+  color: white;
   background-color: blue;
+}
+
+img {
+  width: 100px;
+  height: 100px;
 }
 
 .gems {
   margin-top: 10px;
+  padding-top: 10px;
   background-color: yellow;
-  height: 100px;
+  height: 125px;
+  text-align: center;
+}
+
+.gem1 {
+  margin-right: 10px;
+}
+
+.gem2 {
+  margin-right: 10px;
+}
+
+.gem3 {
+  margin-right: 10px;
+}
+
+.gem4 {
+  margin-right: 20px;
 }
 
 .totalscore {
+  font-size: 20px;
   margin-top: 10px;
   margin-bottom: 10px;
+  padding-top: 10px;
+  color: white;
   background-color: gray;
-  height: 40px;
+  height: 80px;
+  text-align: center;
 }
 
 .score {
+  font-size: 20px;
+  color: white;
   background-color: gray;
   height: 150px;
 }
