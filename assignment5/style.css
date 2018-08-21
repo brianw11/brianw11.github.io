@@ -1,0 +1,53 @@
+body {
+  color: white;
+  background-color:#777C7D;
+  font-family: 'Source Code Pro', monospace;
+}
+
+h1 {
+  color: yellow;
+  font-size: 60px;
+  font-family: 'Source Code Pro', monospace;
+  font-family: 'Nosifer', cursive;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+h3 {
+  margin-bottom: 20px;
+}
+
+.timer {
+  color: blue;
+  font-size: 40px;
+}
+
+ h4 {
+  padding-bottom: 5px;
+ }   
+    
+input[type=checkbox], input[type=radio] {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.btn {
+  display: inline;
+  font-size: 25px;
+  width: 150px;
+  height: 50px;
+  
+}
+
+.btn-submit {
+  background-color: #F60F08;
+  color: white;
+}
+
+.btn-newGame {
+  margin-left: 20px;
+  background-color: #0821F6 ;
+  color: white;
+}
